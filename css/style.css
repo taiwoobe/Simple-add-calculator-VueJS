@@ -1,0 +1,31 @@
+.row {
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+input, span {
+  padding: 10px;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+input {
+  width: 50px;
+}
+
+span {
+  width: 20px;
+}
+
+.second {
+  font-size: 18px;
+}
+.second p {
+  margin-left: 20px;
+}

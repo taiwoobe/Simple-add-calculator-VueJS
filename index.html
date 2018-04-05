@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Calculator in VueJS</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="app">
+  <div class="row">
+    <input type="number" v-model.number="num1"/>
+    <span>+</span>
+    <input type="number" v-model.number="num2"/>
+    <span>=</span>
+    <span> {{ num1 + num2 }}</span>
+  </div>
+  <div class="row second">
+    <select v-model="name">
+      <option>Jeremiah Ogbomo</option>
+      <option>Ariyo Toyin</option>
+      <option>Constantine Kevin</option>
+    </select>
+  <p v-if="name">Your favorite developer is {{ name }}</p>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
